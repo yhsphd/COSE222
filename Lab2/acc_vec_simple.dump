@@ -1,0 +1,50 @@
+
+acc_vec_simple:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00010094 <main>:
+   10094:	fd010113          	addi	sp,sp,-48
+   10098:	02112623          	sw	ra,44(sp)
+   1009c:	02812423          	sw	s0,40(sp)
+   100a0:	03010413          	addi	s0,sp,48
+   100a4:	000107b7          	lui	a5,0x10
+   100a8:	14078793          	addi	a5,a5,320 # 10140 <main+0xac>
+   100ac:	0007a583          	lw	a1,0(a5)
+   100b0:	0047a603          	lw	a2,4(a5)
+   100b4:	0087a683          	lw	a3,8(a5)
+   100b8:	00c7a703          	lw	a4,12(a5)
+   100bc:	0107a783          	lw	a5,16(a5)
+   100c0:	fcb42c23          	sw	a1,-40(s0)
+   100c4:	fcc42e23          	sw	a2,-36(s0)
+   100c8:	fed42023          	sw	a3,-32(s0)
+   100cc:	fee42223          	sw	a4,-28(s0)
+   100d0:	fef42423          	sw	a5,-24(s0)
+   100d4:	fe042623          	sw	zero,-20(s0)
+   100d8:	fd842783          	lw	a5,-40(s0)
+   100dc:	fec42703          	lw	a4,-20(s0)
+   100e0:	00f707b3          	add	a5,a4,a5
+   100e4:	fef42623          	sw	a5,-20(s0)
+   100e8:	fdc42783          	lw	a5,-36(s0)
+   100ec:	fec42703          	lw	a4,-20(s0)
+   100f0:	00f707b3          	add	a5,a4,a5
+   100f4:	fef42623          	sw	a5,-20(s0)
+   100f8:	fe042783          	lw	a5,-32(s0)
+   100fc:	fec42703          	lw	a4,-20(s0)
+   10100:	00f707b3          	add	a5,a4,a5
+   10104:	fef42623          	sw	a5,-20(s0)
+   10108:	fe442783          	lw	a5,-28(s0)
+   1010c:	fec42703          	lw	a4,-20(s0)
+   10110:	00f707b3          	add	a5,a4,a5
+   10114:	fef42623          	sw	a5,-20(s0)
+   10118:	fe842783          	lw	a5,-24(s0)
+   1011c:	fec42703          	lw	a4,-20(s0)
+   10120:	00f707b3          	add	a5,a4,a5
+   10124:	fef42623          	sw	a5,-20(s0)
+   10128:	fec42783          	lw	a5,-20(s0)
+   1012c:	00078513          	mv	a0,a5
+   10130:	02c12083          	lw	ra,44(sp)
+   10134:	02812403          	lw	s0,40(sp)
+   10138:	03010113          	addi	sp,sp,48
+   1013c:	00008067          	ret
