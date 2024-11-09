@@ -24,11 +24,16 @@ module alu
 
     always_comb begin
         case (alu_control)
-            
+            4'b0010: result = in1 + in2;    // lw, sw, add, addi
+            4'b0110: result = in1 - in2;    // sub, beq, bne, blt, bge
+            4'b0000: result = in1 & in2;    // and, andi
+            4'b0001: result = in1 | in2;    // or, ori
+            4'b0011: result = in1 ^ in2;    // xor, xori
+            default: result = 0;            // default (to prevent latches)
 		endcase
     end
 
-    assign zero = ;
-    assign sign = ;
+    assign zero = (result == 0);
+    assign sign = result[REG_WIDTH-1];
 
 endmodule

@@ -1,0 +1,52 @@
+CC:   0 mem_read: 0 mem_write: 0 addr: 00 din: 0000000000000000 dout=0000000000000000
+CC:   1 mem_read: 0 mem_write: 0 addr: 00 din: 0000000000000000 dout=0000000000000000
+CC:   2 mem_read: 0 mem_write: 0 addr: 00 din: 0000000000000000 dout=0000000000000000
+CC:   3 mem_read: 0 mem_write: 1 addr: 01 din: 0000000000000002 dout=0000000000000000
+CC:   4 mem_read: 0 mem_write: 1 addr: 02 din: 0000000000000004 dout=0000000000000000
+CC:   5 mem_read: 0 mem_write: 1 addr: 03 din: 0000000000000006 dout=0000000000000000
+CC:   6 mem_read: 0 mem_write: 1 addr: 04 din: 0000000000000008 dout=0000000000000000
+CC:   7 mem_read: 0 mem_write: 1 addr: 05 din: 000000000000000a dout=0000000000000000
+CC:   8 mem_read: 0 mem_write: 1 addr: 06 din: 000000000000000c dout=0000000000000000
+CC:   9 mem_read: 0 mem_write: 1 addr: 07 din: 000000000000000e dout=0000000000000000
+CC:  10 mem_read: 0 mem_write: 1 addr: 08 din: 0000000000000010 dout=0000000000000000
+CC:  11 mem_read: 0 mem_write: 1 addr: 09 din: 0000000000000012 dout=0000000000000000
+CC:  12 mem_read: 0 mem_write: 1 addr: 0a din: 0000000000000014 dout=0000000000000000
+CC:  13 mem_read: 0 mem_write: 1 addr: 0b din: 0000000000000016 dout=0000000000000000
+CC:  14 mem_read: 0 mem_write: 1 addr: 0c din: 0000000000000018 dout=0000000000000000
+CC:  15 mem_read: 0 mem_write: 1 addr: 0d din: 000000000000001a dout=0000000000000000
+CC:  16 mem_read: 0 mem_write: 1 addr: 0e din: 000000000000001c dout=0000000000000000
+CC:  17 mem_read: 0 mem_write: 1 addr: 0f din: 000000000000001e dout=0000000000000000
+CC:  18 mem_read: 0 mem_write: 1 addr: 00 din: 0000000000000020 dout=0000000000000000
+CC:  19 mem_read: 1 mem_write: 0 addr: 01 din: 0000000000000022 dout=0000000000000002
+CC:  20 mem_read: 1 mem_write: 0 addr: 02 din: 0000000000000024 dout=0000000000000004
+CC:  21 mem_read: 1 mem_write: 0 addr: 03 din: 0000000000000026 dout=0000000000000006
+CC:  22 mem_read: 1 mem_write: 0 addr: 04 din: 0000000000000028 dout=0000000000000008
+CC:  23 mem_read: 1 mem_write: 0 addr: 05 din: 000000000000002a dout=000000000000000a
+CC:  24 mem_read: 1 mem_write: 0 addr: 06 din: 000000000000002c dout=000000000000000c
+CC:  25 mem_read: 1 mem_write: 0 addr: 07 din: 000000000000002e dout=000000000000000e
+CC:  26 mem_read: 1 mem_write: 0 addr: 08 din: 0000000000000030 dout=0000000000000010
+CC:  27 mem_read: 1 mem_write: 0 addr: 09 din: 0000000000000032 dout=0000000000000012
+CC:  28 mem_read: 1 mem_write: 0 addr: 0a din: 0000000000000034 dout=0000000000000014
+CC:  29 mem_read: 1 mem_write: 0 addr: 0b din: 0000000000000036 dout=0000000000000016
+CC:  30 mem_read: 1 mem_write: 0 addr: 0c din: 0000000000000038 dout=0000000000000018
+CC:  31 mem_read: 1 mem_write: 0 addr: 0d din: 000000000000003a dout=000000000000001a
+CC:  32 mem_read: 1 mem_write: 0 addr: 0e din: 000000000000003c dout=000000000000001c
+CC:  33 mem_read: 1 mem_write: 0 addr: 0f din: 000000000000003e dout=000000000000001e
+CC:  34 mem_read: 1 mem_write: 0 addr: 00 din: 0000000000000040 dout=0000000000000020
+CC:  35 mem_read: 0 mem_write: 0 addr: 01 din: 0000000000000042 dout=0000000000000000
+data[ 0]: 0000000000000020
+data[ 1]: 0000000000000002
+data[ 2]: 0000000000000004
+data[ 3]: 0000000000000006
+data[ 4]: 0000000000000008
+data[ 5]: 000000000000000A
+data[ 6]: 000000000000000C
+data[ 7]: 000000000000000E
+data[ 8]: 0000000000000010
+data[ 9]: 0000000000000012
+data[10]: 0000000000000014
+data[11]: 0000000000000016
+data[12]: 0000000000000018
+data[13]: 000000000000001A
+data[14]: 000000000000001C
+data[15]: 000000000000001E

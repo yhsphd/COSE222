@@ -41,12 +41,14 @@ module dmem
 
     // Write operation:
     always_ff @ (posedge clk) begin
-        
+        if (mem_write) begin
+            data[addr] <= din;
+        end
     end
 
     // Read operation:
     // - dout = 0 if (mem_read==0) 
-    assign dout = ;
+    assign dout = mem_read ? data[addr] : 0;
 
 /*
 // synthesis translate_off

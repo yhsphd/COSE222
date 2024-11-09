@@ -21,7 +21,8 @@ module imem
     output  [31:0]  dout
 );
 
-    
+    logic[31:0] data[0:IMEM_DEPTH-1];
+    assign dout = data[addr];
 
 // synthesis translate_off
     initial begin

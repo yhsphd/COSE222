@@ -1,0 +1,36 @@
+CC:   0 addr: 00 dout=00000000
+CC:   1 addr: 00 dout=00000000
+CC:   2 addr: 00 dout=00000000
+CC:   3 addr: 01 dout=00000002
+CC:   4 addr: 02 dout=00000004
+CC:   5 addr: 03 dout=00000006
+CC:   6 addr: 04 dout=00000008
+CC:   7 addr: 05 dout=0000000a
+CC:   8 addr: 06 dout=0000000c
+CC:   9 addr: 07 dout=0000000e
+CC:  10 addr: 08 dout=00000010
+CC:  11 addr: 09 dout=00000012
+CC:  12 addr: 0a dout=00000014
+CC:  13 addr: 0b dout=00000016
+CC:  14 addr: 0c dout=00000018
+CC:  15 addr: 0d dout=0000001a
+CC:  16 addr: 0e dout=0000001c
+CC:  17 addr: 0f dout=0000001e
+CC:  18 addr: 10 dout=00000020
+CC:  19 addr: 11 dout=00000022
+data[ 0]: 0000000000000000
+data[ 1]: 0000000000000002
+data[ 2]: 0000000000000004
+data[ 3]: 0000000000000006
+data[ 4]: 0000000000000008
+data[ 5]: 000000000000000a
+data[ 6]: 000000000000000c
+data[ 7]: 000000000000000e
+data[ 8]: 0000000000000010
+data[ 9]: 0000000000000012
+data[10]: 0000000000000014
+data[11]: 0000000000000016
+data[12]: 0000000000000018
+data[13]: 000000000000001a
+data[14]: 000000000000001c
+data[15]: 000000000000001e
